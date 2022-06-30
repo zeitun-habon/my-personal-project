@@ -1,0 +1,81 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+html{
+    background: url(/Assets/Images/bacgroung-img.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body h1 {
+    position: absolute;
+    font-size: 40px;
+    left: 600px;
+}
+
+.body {
+    display: flex;
+}
+
+.card {
+    width: 280px;
+    height: 520px;
+    background: #efefef;
+    padding: 30px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 100px 15px 0 15px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.card div h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.card div ul {
+    list-style: none;
+}
+
+.card div h2 {
+    margin-top: 25px;
+}
+
+.card div p {
+    margin: 20px 0 25px 0;
+}
+
+.details li {
+    padding-bottom: 15px;
+}
+
+/* Animation section*/
+
+.card div .btn {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 10px;
+    display: inline-block;
+    transition: 0.2s;
+    border: 1px solid black;
+}
+
+.card div .btn:hover{
+    border-color: #2980b9;
+    background: #2980b9;
+    color: white;
+}

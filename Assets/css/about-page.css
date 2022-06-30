@@ -1,0 +1,112 @@
+*{
+    font-family:Georgia;
+}
+html{
+    background: url(/dade-contractors/assets/images/categories-background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.main{
+   width: 100%;
+   height: 70%;
+   position: relative;
+   background-image: url("/Assets/Images/img4.jpg");
+   background-size:100%,100%;
+   padding-bottom: 20%;
+   box-shadow: 1px 2px 2px 4px;
+   
+}
+   
+.slider{
+    width: 95%;
+    margin: 2%;
+
+}
+.slider ul{
+    display: flex;
+    padding-bottom:7%;
+    animation: slider  15s infinite linear;
+}
+.slider li{
+    list-style: none;
+    width: 100%;
+}
+.slider img{
+    width: 100%;
+    height: 150%;
+}
+@keyframes slider{
+    0%{margin-left: 0%;}
+    25%{margin-left: 5%;}
+
+    50%{margin-left: -5%;}
+    75%{margin-left: -10%;}
+
+    
+   
+}
+.mapouter{
+   
+    text-align:right;
+    height:300px;
+    width:600px;
+    padding-left: 20%;
+    padding-top: 5%;
+   
+}
+.headertext{
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 20px;
+
+}
+
+.footer{
+    background-color: rgb(5, 5, 31);
+    display: flex;
+    color: white;
+}
+.social{
+    color: white;
+    padding-top: 2%;
+    padding-left:2%
+}
+.contacts{
+    padding-top: 2%;
+    padding-left:5%
+}
+
+.submain{
+    display: flex;
+    font-size: 120%;
+    font-weight: bolder;
+    padding-left: 2%;
+    justify-content: space-between;
+  
+}
+.submain >ul li{
+    list-style: none;
+   
+
+}
+.team{
+    background-color: rgb(5, 5, 31);
+    padding: 2%;
+    color: white;
+   
+
+}
+.team >.member >img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+.team >.member{
+   
+    display:inline-block;
+    padding: 4%;
+}
